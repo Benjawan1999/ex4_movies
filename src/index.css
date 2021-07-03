@@ -1,0 +1,26 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cards {
+    border: 1px solid black;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(10 , auto) ;
+}
+
+p {
+    color: gray;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
